@@ -13,11 +13,6 @@ This project implements a high-performance hardware accelerator for **Image Hist
 - **Language**: Verilog HDL
 - **Simulation/Synthesis**: Xilinx Vivado, iVerilog, GTKWave
 - **Target Hardware**: Arty-Z7 (Xilinx Zynq-7000)
-
-## Project Structure
-- `/rtl`: Contains Verilog source files (FSM, Histogram, CDF, Mapper).
-- `/tb`: Testbench files for functional verification.
-- `/docs`: Includes the final technical report and block diagrams.
-
+  
 ## Verification
 Validated through Vivado simulations. The design maintains timing closure and functional accuracy for various image sizes, ensuring seamless SoC integration.
